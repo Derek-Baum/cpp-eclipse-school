@@ -1,0 +1,18 @@
+/*
+ * LLPQ.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLPQ.hpp"
+
+using namespace std;
+
+LLPQ::LLPQ(){
+	first = NULL;
+	size = 0;
+}
+
+
+

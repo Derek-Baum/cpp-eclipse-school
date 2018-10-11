@@ -1,0 +1,3244 @@
+13:12:55 **** Rebuild of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.cpp" 
+..\hello.cpp: In function 'int main()':
+..\hello.cpp:12:33: error: 'end1' was not declared in this scope
+  cout << "!!!Hello World!!!" << end1;
+                                 ^~~~
+13:13:12 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.cpp" 
+..\hello.cpp: In function 'int main()':
+..\hello.cpp:12:33: error: 'end1' was not declared in this scope
+  cout << "!!!Hello World!!!" << end1;
+                                 ^~~~
+13:13:31 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.cpp" 
+..\hello.cpp: In function 'int main()':
+..\hello.cpp:12:33: error: 'end1' was not declared in this scope
+  cout << "!!!Hello World!!!" << end1;
+                                 ^~~~
+13:14:37 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.cpp" 
+g++ -o FirstProject.exe hello.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for FirstProject
+14:12:44 **** Rebuild of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:13:10 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:13:19 **** Incremental Build of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.cpp" 
+g++ -o FirstProject.exe hello.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+14:32:04 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int three(int)':
+..\inClass.cpp:22:8: error: expected primary-expression before ')' token
+  while(){
+        ^
+..\inClass.cpp:21:6: warning: unused variable 'y' [-Wunused-variable]
+  int y = sqrt(x);
+      ^
+Info: Nothing to build for FirstProject
+14:34:19 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:34:40 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:36:10 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:36:26 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:38:22 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:39:49 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:41:48 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:41:54 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:41:58 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for Lab 01
+14:42:04 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:42:55 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:43:03 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:43:08 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:43:13 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+14:43:17 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:43:52 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int main()':
+..\inClass.cpp:15:17: error: 'three' was not declared in this scope
+  cout << three(7) << endl;
+                 ^
+Info: Nothing to build for FirstProject
+14:44:02 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+14:46:46 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int sum300()':
+..\inClass.cpp:42:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for Lab 01
+14:47:15 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int sum300()':
+..\inClass.cpp:42:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:47:21 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:47:40 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:47:48 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int sum300()':
+..\inClass.cpp:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:48:08 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:48:14 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:49:21 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:49:54 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int main()':
+..\inClass.cpp:17:17: error: 'sum300' was not declared in this scope
+  cout << sum300() << endl;
+                 ^
+Info: Nothing to build for FirstProject
+14:50:09 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:50:22 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:50:52 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:51:00 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+14:51:46 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+14:58:51 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for Lab 01
+15:08:57 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+15:16:35 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+15:16:36 **** Rebuild of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for tester
+Info: Nothing to build for FirstProject
+02:32:29 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for FirstProject
+02:33:08 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+02:33:31 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+02:33:51 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+02:33:59 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+02:34:11 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+02:35:32 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+02:35:56 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'void allMultTables()':
+..\inClass.cpp:76:8: error: expected ';' before 'endl'
+   cout endl;
+        ^~~~
+..\inClass.cpp:76:12: warning: statement has no effect [-Wunused-value]
+   cout endl;
+            ^
+Info: Nothing to build for FirstProject
+02:36:11 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+02:43:32 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+02:44:23 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+02:44:39 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+03:03:41 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+03:04:14 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'void printLeapYears(int, int)':
+..\inClass.cpp:112:6: error: ambiguating new declaration of 'void printLeapYears(int, int)'
+ void printLeapYears(int startYear, int endYear){
+      ^~~~~~~~~~~~~~
+..\inClass.cpp:16:5: note: old declaration 'int printLeapYears(int, int)'
+ int printLeapYears(int startYear, int endYear);
+     ^~~~~~~~~~~~~~
+Info: Nothing to build for FirstProject
+03:05:11 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'void printLeapYears(int, int)':
+..\inClass.cpp:112:6: error: ambiguating new declaration of 'void printLeapYears(int, int)'
+ void printLeapYears(int startYear, int endYear){
+      ^~~~~~~~~~~~~~
+..\inClass.cpp:16:5: note: old declaration 'int printLeapYears(int, int)'
+ int printLeapYears(int x, int y);
+     ^~~~~~~~~~~~~~
+Info: Nothing to build for tester
+Info: Nothing to build for FirstProject
+03:05:37 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+Info: Nothing to build for FirstProject
+03:20:03 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+03:20:31 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:20:45 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:21:13 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:22:17 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:23:06 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:23:30 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:31:06 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:31:27 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:32:16 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:44:57 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+..\inClass.cpp: In function 'int main()':
+..\inClass.cpp:38:18: error: too few arguments to function 'bool recursivePrime(int, int)'
+  recursivePrime(5);
+                  ^
+..\inClass.cpp:19:6: note: declared here
+ bool recursivePrime(int x, int div);
+      ^~~~~~~~~~~~~~
+Info: Nothing to build for FirstProject
+03:46:22 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 01
+03:46:54 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for FirstProject
+03:47:09 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+03:47:20 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:47:30 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:47:34 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:47:44 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+03:50:29 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+13:25:03 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FirstProject.o "..\\FirstProject.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" FirstProject.o inClass.o 
+inClass.o: In function `ZStorSt13_Ios_FmtflagsS_':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:21: multiple definition of `main'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:29: first defined here
+inClass.o: In function `Z3twov':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:44: multiple definition of `two()'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:57: first defined here
+inClass.o: In function `Z7isPrimei':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:47: multiple definition of `isPrime(int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:65: first defined here
+inClass.o: In function `Z3sumv':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:57: multiple definition of `sum()'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:80: first defined here
+inClass.o: In function `Z9termCountv':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:69: multiple definition of `termCount()'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:97: first defined here
+inClass.o: In function `Z10multTablesi':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:81: multiple definition of `multTables(int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:113: first defined here
+inClass.o: In function `Z13allMultTablesv':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:89: multiple definition of `allMultTables()'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:124: first defined here
+inClass.o: In function `Z7collatzv':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:98: multiple definition of `collatz()'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:137: first defined here
+inClass.o: In function `Z14printLeapYearsii':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:122: multiple definition of `printLeapYears(int, int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:163: first defined here
+inClass.o: In function `Z5drawXi':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:142: multiple definition of `drawX(int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:186: first defined here
+inClass.o: In function `Z13collatzTesterii':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:158: multiple definition of `collatzTester(int, int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:205: first defined here
+inClass.o: In function `Z14recursivePrimeii':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:174: multiple definition of `recursivePrime(int, int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:226: first defined here
+inClass.o: In function `Z14recursivePrimei':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:187: multiple definition of `recursivePrime(int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:242: first defined here
+inClass.o: In function `Z14recursiveTableii':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:191: multiple definition of `recursiveTable(int, int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:248: first defined here
+inClass.o: In function `Z14recursiveTablei':
+C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../inClass.cpp:198: multiple definition of `recursiveTable(int)'
+FirstProject.o:C:\Users\mexib\Dropbox\Workspace Cpp\Lab 01\Debug/../FirstProject.cpp:257: first defined here
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for FirstProject
+13:25:34 **** Incremental Build of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for tester
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+13:26:30 **** Rebuild of configuration Debug for project Teste ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FirstProject.o "..\\FirstProject.cpp" 
+g++ -o Teste.exe FirstProject.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+14:34:45 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:27:11: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *y = x;
+           ^
+..\test.cpp:28:12: error: cannot convert 'int*' to 'int**' in initialization
+  int **z = y;
+            ^
+..\test.cpp:28:8: warning: unused variable 'z' [-Wunused-variable]
+  int **z = y;
+        ^
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Teste
+14:35:15 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:27:11: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *y = x;
+           ^
+..\test.cpp:28:12: error: cannot convert 'int*' to 'int**' in initialization
+  int **z = y;
+            ^
+..\test.cpp:28:8: warning: unused variable 'z' [-Wunused-variable]
+  int **z = y;
+        ^
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Teste
+14:35:20 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for tester
+14:35:31 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+14:35:38 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+14:37:07 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:27:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 4;
+      ^
+..\test.cpp:28:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = 5;
+      ^
+..\test.cpp:29:6: warning: unused variable 'k' [-Wunused-variable]
+  int k = 6;
+      ^
+g++ -o tester.exe test.o 
+14:37:37 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:28:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = 5;
+      ^
+..\test.cpp:29:6: warning: unused variable 'k' [-Wunused-variable]
+  int k = 6;
+      ^
+g++ -o tester.exe test.o 
+14:48:56 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+14:59:17 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:12:46 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:13:24 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:13:33 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:14:56 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:15:07 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:15:13 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:15:18 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:15:41 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:16:02 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:16:18 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:16:27 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+15:19:14 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:22:44 **** Rebuild of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:23:49 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+14:24:03 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+14:25:06 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:13:23: error: initializer fails to determine size of 'arr'
+  int arr[] = new int[4];
+                       ^
+..\main.cpp:13:23: error: array must be initialized with a brace-enclosed initializer
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:26:50 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:13:23: error: initializer fails to determine size of 'arr'
+  int arr[] = new int[4];
+                       ^
+..\main.cpp:13:23: error: array must be initialized with a brace-enclosed initializer
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:28:51 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+14:29:02 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+14:29:17 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:12:23: error: initializer fails to determine size of 'arr'
+  int arr[] = new int[4];
+                       ^
+..\main.cpp:12:23: error: array must be initialized with a brace-enclosed initializer
+14:29:25 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+14:30:08 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+14:30:14 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+14:34:50 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+14:53:09 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int randomInt()':
+..\main.cpp:61:31: error: invalid operands of types 'void' and 'int' to binary 'operator%'
+  int x = srand((int) time(0)) % 50;
+          ~~~~~~~~~~~~~~~~~~~~~^~~~
+..\main.cpp:64:1: error: expected ';' before '}' token
+ }
+ ^
+..\main.cpp:64:1: warning: no return statement in function returning non-void [-Wreturn-type]
+14:55:24 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Lab 02
+14:55:33 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+15:04:49 **** Rebuild of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Rect.o "..\\Rect.cpp" 
+g++ -o "Class Example.exe" Rect.o main.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+15:05:20 **** Incremental Build of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:7:11: error: conversion from 'Rect*' to non-scalar type 'Rect' requested
+  Rect r = new Rect(4,3);
+           ^~~~~~~~~~~~~
+15:06:47 **** Incremental Build of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Class Example.exe" Rect.o main.o 
+Info: Nothing to build for Class Example
+15:07:25 **** Incremental Build of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:11:13: error: request for member 'getArea' in 'r2', which is of non-class type 'Rect()'
+  cout << r2.getArea() << endl;
+             ^~~~~~~
+16:19:06 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:39:29: error: invalid operands of types 'const char [17]' and 'int*' to binary 'operator+'
+  cout << "Vals address is " + &val << endl;
+          ~~~~~~~~~~~~~~~~~~~^~~~~~
+..\main.cpp:42:29: error: invalid operands of types 'const char [17]' and 'int*' to binary 'operator+'
+  cout << "Vals address is " + &val << endl;
+          ~~~~~~~~~~~~~~~~~~~^~~~~~
+16:20:07 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+16:34:38 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 02
+16:35:26 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+16:37:37 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void cubeValue(int&)':
+..\main.cpp:91:11: error: invalid type argument of unary '*' (have 'int')
+  cout << *x;
+           ^
+16:41:55 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:58:18: error: 'problemSix' was not declared in this scope
+  problemSix(&x,&y);
+                  ^
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:110:11: error: invalid conversion from 'int**' to 'int' [-fpermissive]
+  int &z = &x;
+           ^~
+..\main.cpp:110:11: error: cannot bind rvalue '(int)(& x)' to 'int&'
+..\main.cpp:112:7: error: cannot convert 'int**' to 'int*' in assignment
+  x = &y;
+       ^
+16:42:14 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:111:11: error: invalid conversion from 'int**' to 'int' [-fpermissive]
+  int &z = &x;
+           ^~
+..\main.cpp:111:11: error: cannot bind rvalue '(int)(& x)' to 'int&'
+..\main.cpp:113:7: error: cannot convert 'int**' to 'int*' in assignment
+  x = &y;
+       ^
+16:42:55 **** Incremental Build of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Class Example.exe" Rect.o main.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:42:56 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:111:11: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *z = *x;
+           ^~
+..\main.cpp:112:6: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  z = 32;
+      ^~
+..\main.cpp:114:6: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  z = 42;
+      ^~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:43:04 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:112:6: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  z = 32;
+      ^~
+..\main.cpp:114:6: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  z = 42;
+      ^~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:43:20 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:114:6: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  z = 42;
+      ^~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:43:25 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+16:53:26 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:111:11: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  int &z = x;
+           ^
+..\main.cpp:111:11: error: cannot bind rvalue '(int)x' to 'int&'
+..\main.cpp:112:3: error: invalid type argument of unary '*' (have 'int')
+  *z = 32;
+   ^
+..\main.cpp:114:3: error: invalid type argument of unary '*' (have 'int')
+  *z = 42;
+   ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:53:43 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:54:07 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:111:12: error: cannot convert 'int**' to 'int*' in initialization
+  int *z = &x;
+            ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:54:26 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+16:54:59 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void problemSix(int*, int*)':
+..\main.cpp:113:7: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  *z = y;
+       ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:55:06 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+16:55:37 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:10:22 **** Rebuild of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Rect.o "..\\Rect.cpp" 
+g++ -o "Class Example.exe" Rect.o main.o 
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+19:10:26 **** Rebuild of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+19:11:56 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void cubeValue(int&)':
+..\main.cpp:97:12: error: label 'x' used but not defined
+  cout << &&x << endl;
+            ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+19:12:04 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+19:12:10 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+19:12:33 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:12:56 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void cubeValue(int&)':
+..\main.cpp:98:12: error: invalid type argument of unary '*' (have 'int')
+  cout << &*x << endl;
+            ^
+19:16:34 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:22:19 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:22:59 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void scramble(char&, char, char*)':
+..\main.cpp:138:6: error: invalid conversion from 'char' to 'char*' [-fpermissive]
+  c = 'h';
+      ^~~
+19:23:08 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:28:43 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:33:21 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:33:36 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:43:11 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:105:19: error: 'arrayThing' was not declared in this scope
+  arrayThing(10,min);
+                   ^
+19:43:40 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:44:39 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void arrayThing(int, int&)':
+..\main.cpp:199:42: warning: second operand of conditional expression has no effect [-Wunused-value]
+   cout <<a[i]<<(i == length-1) ? "" :", ";
+                                          ^
+..\main.cpp:199:42: warning: third operand of conditional expression has no effect [-Wunused-value]
+g++ -o "Lab 02.exe" main.o 
+19:45:12 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void arrayThing(int, int&)':
+..\main.cpp:199:44: warning: second operand of conditional expression has no effect [-Wunused-value]
+   cout <<a[i]<<(i == (length-1)) ? "" :", ";
+                                            ^
+..\main.cpp:199:44: warning: third operand of conditional expression has no effect [-Wunused-value]
+g++ -o "Lab 02.exe" main.o 
+19:46:06 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:47:43 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:55:38 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:56:59 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+19:58:56 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+20:08:31 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+20:09:35 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+20:10:06 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 02.exe" main.o 
+20:14:01 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:125:21: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *num = stackVar();
+             ~~~~~~~~^~
+20:14:40 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:125:21: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *num = stackVar();
+             ~~~~~~~~^~
+..\main.cpp: In function 'int stackVar()':
+..\main.cpp:287:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return &x;
+         ^~
+..\main.cpp:285:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+20:15:13 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:125:21: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *num = stackVar();
+             ~~~~~~~~^~
+..\main.cpp: In function 'int& stackVar()':
+..\main.cpp:287:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return &x;
+         ^~
+..\main.cpp:287:9: error: cannot bind rvalue '(int)(& x)' to 'int&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+20:15:21 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:125:21: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *num = stackVar();
+             ~~~~~~~~^~
+..\main.cpp: In function 'int& stackVar()':
+..\main.cpp:287:10: error: invalid type argument of unary '*' (have 'int')
+  return *x;
+          ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+20:16:48 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:125:21: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *num = stackVar();
+             ~~~~~~~~^~
+..\main.cpp: In function 'int& stackVar()':
+..\main.cpp:285:11: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *x = 3;
+           ^
+..\main.cpp:287:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return x;
+         ^
+..\main.cpp:287:9: error: cannot bind rvalue '(int)x' to 'int&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+20:17:38 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:287:9: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  return x;
+         ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+20:17:44 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:285:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+20:18:19 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:285:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Lab 02
+20:18:42 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:126:71: error: invalid operands of types 'int**' and '<unresolved overloaded function type>' to binary 'operator<<'
+  cout<<"our variable in main is: "<<num<<", and its address is: "<&num<<endl;
+                                                                   ~~~~^~~~~~
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:285:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+20:18:51 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:285:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+15:31:26 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:292:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'void printArray(int*)':
+..\main.cpp:299:24: warning: 'sizeof' on array function parameter 'a' will return size of 'int*' [-Wsizeof-array-argument]
+  int length = (sizeof(a)/sizeof(*a));
+                        ^
+..\main.cpp:298:23: note: declared here
+ void printArray(int a[]){
+                       ^
+g++ -o "Lab 02.exe" main.o 
+15:32:21 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:292:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: At global scope:
+..\main.cpp:298:24: error: declaration of 'a' as array of references
+ void printArray(int &a[]){
+                        ^
+..\main.cpp: In function 'void printArray(...)':
+..\main.cpp:299:23: error: 'a' was not declared in this scope
+  int length = (sizeof(a)/sizeof(*a));
+                       ^
+15:32:59 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:292:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+16:03:29 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:135:8: error: storage size of 'b' isn't known
+  int b[];
+        ^
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomArray(int*)':
+..\main.cpp:312:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return a;
+         ^
+..\main.cpp:312:9: error: cannot bind rvalue '(int)a' to 'int&'
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:03:50 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:135:7: error: 'b' declared as reference but not initialized
+  int &b;
+       ^
+..\main.cpp:136:14: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  randomArray(b);
+              ^
+..\main.cpp:26:6: note:   initializing argument 1 of 'int& randomArray(int*)'
+ int &randomArray(int a[]);
+      ^~~~~~~~~~~
+..\main.cpp:137:13: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  printArray(b,25);
+             ^
+..\main.cpp:25:6: note:   initializing argument 1 of 'void printArray(int*, int)'
+ void printArray(int a[], int length);
+      ^~~~~~~~~~
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomArray(int*)':
+..\main.cpp:312:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return a;
+         ^
+..\main.cpp:312:9: error: cannot bind rvalue '(int)a' to 'int&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:04:18 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomArray(int*)':
+..\main.cpp:312:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return a;
+         ^
+..\main.cpp:312:9: error: cannot bind rvalue '(int)a' to 'int&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+16:04:21 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomArray(int*)':
+..\main.cpp:312:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return a;
+         ^
+..\main.cpp:312:9: error: cannot bind rvalue '(int)a' to 'int&'
+16:05:47 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:26:26: error: cannot declare reference to 'void'
+ void &randomArray(int a[]);
+                          ^
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: At global scope:
+..\main.cpp:306:26: error: cannot declare reference to 'void'
+ void &randomArray(int a[]){
+                          ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:06:10 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:22:00 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomStuffArray(int*, int*, int*)':
+..\main.cpp:315:24: error: initializer fails to determine size of 'arr'
+  int arr[] = new int[50];
+                        ^
+..\main.cpp:315:24: error: array must be initialized with a brace-enclosed initializer
+..\main.cpp:315:6: warning: unused variable 'arr' [-Wunused-variable]
+  int arr[] = new int[50];
+      ^~~
+..\main.cpp:316:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:22:11 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomStuffArray(int*, int*, int*)':
+..\main.cpp:315:26: error: array must be initialized with a brace-enclosed initializer
+  int arr[50] = new int[50];
+                          ^
+..\main.cpp:315:6: warning: unused variable 'arr' [-Wunused-variable]
+  int arr[50] = new int[50];
+      ^~~
+..\main.cpp:316:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:23:25 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomStuffArray(int*, int*, int*)':
+..\main.cpp:315:7: warning: unused variable 'arr' [-Wunused-variable]
+  int *arr = new int[50];
+       ^~~
+..\main.cpp:316:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:30:04 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:294:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int& randomStuffArray(int*, int*, int*)':
+..\main.cpp:324:9: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  return arr;
+         ^~~
+..\main.cpp:324:9: error: cannot bind rvalue '(int)arr' to 'int&'
+..\main.cpp:317:6: warning: unused variable 'high' [-Wunused-variable]
+  int high = (rand()%5)+5;
+      ^~~~
+..\main.cpp:318:6: warning: unused variable 'low' [-Wunused-variable]
+  int low = (rand()%5)-10;
+      ^~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:32:03 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:295:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int* randomStuffArray(int*, int*, int*)':
+..\main.cpp:318:6: warning: unused variable 'high' [-Wunused-variable]
+  int high = (rand()%5)+5;
+      ^~~~
+..\main.cpp:319:6: warning: unused variable 'low' [-Wunused-variable]
+  int low = (rand()%5)-10;
+      ^~~
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:37:09 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:295:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int* randomStuffArray(int*, int*, int*)':
+..\main.cpp:323:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  a=length;
+    ^~~~~~
+..\main.cpp:324:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  b=high;
+    ^~~~
+..\main.cpp:325:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  c=low;
+    ^~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:37:21 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:295:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int* randomStuffArray(int*, int*, int*)':
+..\main.cpp:323:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  a=length;
+    ^~~~~~
+..\main.cpp:324:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  b=high;
+    ^~~~
+..\main.cpp:325:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  c=low;
+    ^~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:37:52 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:295:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+..\main.cpp: In function 'int* randomStuffArray(int*, int*, int*)':
+..\main.cpp:324:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  b=high;
+    ^~~~
+..\main.cpp:325:4: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  c=low;
+    ^~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:37:57 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:295:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:40:24 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:145:48: error: initializer fails to determine size of 'array'
+  int array[] = randomStuffArray(&len,&high,&low);
+                                                ^
+..\main.cpp:145:48: error: array must be initialized with a brace-enclosed initializer
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:303:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+16:40:42 **** Incremental Build of configuration Debug for project Lab 02 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int* stackVar()':
+..\main.cpp:303:6: warning: address of local variable 'x' returned [-Wreturn-local-addr]
+  int x = 3;
+      ^
+g++ -o "Lab 02.exe" main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 02
+19:51:15 **** Rebuild of configuration Debug for project Class Example ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Rect.o "..\\Rect.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Class Example.exe" Rect.o main.o 
+19:51:17 **** Rebuild of configuration Debug for project FirstProject ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.cpp" 
+g++ -o FirstProject.exe hello.o 
+19:51:18 **** Rebuild of configuration Debug for project Lab 01 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o inClass.o "..\\inClass.cpp" 
+g++ -o "Lab 01.exe" inClass.o 
+Info: Nothing to build for Lab 02
+19:51:19 **** Rebuild of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:32:7: error: could not convert 'Book::operator>(Book)(Book(b2))' from 'Book' to 'bool'
+  if(b1>b2){
+     ~~^~~
+..\main.cpp: In function 'void greatestBook(Book*, int)':
+..\main.cpp:41:15: error: could not convert 'Book::operator>(Book)(Book(greatest))' from 'Book' to 'bool'
+   if(books[i] > greatest){
+      ~~~~~~~~~^~~~~~~~~~
+19:51:20 **** Rebuild of configuration Debug for project Teste ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FirstProject.o "..\\FirstProject.cpp" 
+g++ -o Teste.exe FirstProject.o 
+19:51:20 **** Rebuild of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:53:44 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+..\book.cpp:47:33: error: non-member function 'Book operator>(const Book&)' cannot have cv-qualifier
+ Book operator >(const Book &b1) const{
+                                 ^~~~~
+..\book.cpp:47:33: error: 'Book operator>(const Book&)' must take exactly two arguments
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:54:33 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+..\book.cpp:47:6: error: prototype for 'Book Book::operator>(const Book&) const' does not match any in class 'Book'
+ Book Book::operator >(const Book &b1) const{
+      ^~~~
+In file included from ..\book.cpp:8:0:
+..\Book.hpp:24:7: error: candidate is: Book Book::operator>(Book)
+  Book operator >(Book b1);
+       ^~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:55:35 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:32:7: error: could not convert 'Book::operator>(Book&)(b2)' from 'Book' to 'bool'
+  if(b1>b2){
+     ~~^~~
+..\main.cpp: In function 'void greatestBook(Book*, int)':
+..\main.cpp:41:15: error: could not convert 'Book::operator>(Book&)(greatest)' from 'Book' to 'bool'
+   if(books[i] > greatest){
+      ~~~~~~~~~^~~~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:55:57 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+..\book.cpp: In member function 'Book Book::operator>(Book&)':
+..\book.cpp:51:9: error: could not convert '(Book*)this' from 'Book*' to 'Book'
+  return this;
+         ^~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:56:24 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+..\book.cpp: In member function 'Book Book::operator>(Book&)':
+..\book.cpp:51:10: error: lvalue required as unary '&' operand
+  return &this;
+          ^~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:56:28 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:32:7: error: could not convert 'Book::operator>(Book&)(b2)' from 'Book' to 'bool'
+  if(b1>b2){
+     ~~^~~
+..\main.cpp: In function 'void greatestBook(Book*, int)':
+..\main.cpp:41:15: error: could not convert 'Book::operator>(Book&)(greatest)' from 'Book' to 'bool'
+   if(books[i] > greatest){
+      ~~~~~~~~~^~~~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:56:40 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:32:7: error: could not convert 'Book::operator>(Book&)(b2)' from 'Book' to 'bool'
+  if(b1>b2){
+     ~~^~~
+..\main.cpp: In function 'void greatestBook(Book*, int)':
+..\main.cpp:41:15: error: could not convert 'Book::operator>(Book&)(greatest)' from 'Book' to 'bool'
+   if(books[i] > greatest){
+      ~~~~~~~~~^~~~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:57:26 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+In file included from ..\book.cpp:8:0:
+..\Book.hpp:24:7: error: extra qualification 'Book::' on member 'operator>' [-fpermissive]
+  Book Book::operator >(Book &b1);
+       ^~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:57:34 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:32:7: error: could not convert 'Book::operator>(Book&)(b2)' from 'Book' to 'bool'
+  if(b1>b2){
+     ~~^~~
+..\main.cpp: In function 'void greatestBook(Book*, int)':
+..\main.cpp:41:15: error: could not convert 'Book::operator>(Book&)(greatest)' from 'Book' to 'bool'
+   if(books[i] > greatest){
+      ~~~~~~~~~^~~~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:57:45 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:32:7: error: could not convert 'Book::operator>(Book&)(b2)' from 'Book' to 'bool'
+  if(b1>b2){
+     ~~^~~
+..\main.cpp: In function 'void greatestBook(Book*, int)':
+..\main.cpp:41:15: error: could not convert 'Book::operator>(Book&)(greatest)' from 'Book' to 'bool'
+   if(books[i] > greatest){
+      ~~~~~~~~~^~~~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:58:52 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+..\book.cpp: In member function 'Book Book::operator>(Book&)':
+..\book.cpp:49:10: error: could not convert 'true' from 'bool' to 'Book'
+   return true;
+          ^~~~
+..\book.cpp:51:9: error: could not convert 'false' from 'bool' to 'Book'
+  return false;
+         ^~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+19:59:28 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+19:59:43 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+20:00:44 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+20:01:35 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03
+20:02:26 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+20:07:08 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:40:30: error: no matching function for call to 'Book::Book()'
+  Book *heapBooks = new Book[2];
+                              ^
+In file included from ..\main.cpp:7:0:
+..\book.hpp:19:2: note: candidate: Book::Book(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int, int*)
+  Book(std::string f, std::string l,std::string b,int yr, int *rates);
+  ^~~~
+..\book.hpp:19:2: note:   candidate expects 5 arguments, 0 provided
+..\book.hpp:18:2: note: candidate: Book::Book(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int)
+  Book(std::string f, std::string l,std::string b,int yr);
+  ^~~~
+..\book.hpp:18:2: note:   candidate expects 4 arguments, 0 provided
+..\book.hpp:11:7: note: candidate: Book::Book(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   candidate expects 1 argument, 0 provided
+..\main.cpp:41:17: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  heapBooks[0] = heapBook;
+                 ^~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+..\main.cpp:43:17: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  heapBooks[1] = heapBook2;
+                 ^~~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+20:10:25 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:40:36: error: could not convert '0' from 'int' to 'Book'
+  Book *heapBooks = new Book[2]{NULL};
+                                    ^
+..\main.cpp:40:36: error: could not convert '<brace-enclosed initializer list>()' from '<brace-enclosed initializer list>' to 'Book'
+..\main.cpp:42:17: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  heapBooks[1] = heapBook2;
+                 ^~~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+20:10:59 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:42:40: error: scalar object 'heapBooks' requires one element in initializer
+  Book *heapBooks = {heapBook, heapBook2};
+                                        ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:05:51 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+..\book.cpp:11:1: error: prototype for 'Book::Book()' does not match any in class 'Book'
+ Book::Book(){
+ ^~~~
+In file included from ..\book.cpp:8:0:
+..\Book.hpp:11:7: error: candidates are: Book::Book(const Book&)
+ class Book{
+       ^~~~
+..\Book.hpp:19:2: error:                 Book::Book(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int, int*)
+  Book(std::string f, std::string l,std::string b,int yr, int *rates);
+  ^~~~
+..\Book.hpp:18:2: error:                 Book::Book(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int)
+  Book(std::string f, std::string l,std::string b,int yr);
+  ^~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:05:55 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:39:8: warning: unused variable 'heapBook2' [-Wunused-variable]
+  Book *heapBook2 = new Book("Joe", "Schmoe", "I learn how to row", 2017, r1);
+        ^~~~~~~~~
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:06:54 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:41:8: error: conflicting declaration 'Book* books'
+  Book *books = new Book[2];
+        ^~~~~
+..\main.cpp:30:7: note: previous declaration as 'Book books [5]'
+  Book books[] = {b1,b2,b3,b4,b5};
+       ^~~~~
+..\main.cpp:42:13: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  books[0] = heapBook;
+             ^~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+..\main.cpp:43:13: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  books[1] = heapBook2;
+             ^~~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:08:27 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:43:13: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  books[0] = heapBook;
+             ^~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+..\main.cpp:44:13: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  books[1] = heapBook2;
+             ^~~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+..\main.cpp:41:7: warning: unused variable 'arr' [-Wunused-variable]
+  int *arr = new int[10];
+       ^~~
+..\main.cpp:42:8: warning: unused variable 'books2' [-Wunused-variable]
+  Book *books2 = new Book[2];
+        ^~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:08:31 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:43:14: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  books2[0] = heapBook;
+              ^~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+..\main.cpp:44:14: error: no match for 'operator=' (operand types are 'Book' and 'Book*')
+  books2[1] = heapBook2;
+              ^~~~~~~~~
+In file included from ..\main.cpp:7:0:
+..\book.hpp:11:7: note: candidate: Book& Book::operator=(const Book&)
+ class Book{
+       ^~~~
+..\book.hpp:11:7: note:   no known conversion for argument 1 from 'Book*' to 'const Book&'
+..\main.cpp:41:7: warning: unused variable 'arr' [-Wunused-variable]
+  int *arr = new int[10];
+       ^~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:08:45 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:09:31 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+14:09:37 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+14:28:28 **** Rebuild of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+14:28:28 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:32:6: error: no match for 'operator<<' (operand types are 'std::istream {aka std::basic_istream<char>}' and 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}')
+  cin << s;
+  ~~~~^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << s;
+         ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ..\test.cpp:25:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note: candidate: template<class _CharT, class _Traits, class _Tp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&)
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note:   template argument deduction/substitution failed:
+..\test.cpp:32:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << s;
+         ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+14:28:47 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SNode.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+14:28:47 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+14:31:42 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+14:46:17 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:19:7: error: request for member 'printNode' in 'test', which is of non-class type 'SNode()'
+  test.printNode();
+       ^~~~~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+14:47:22 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+14:49:27 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+14:50:10 **** Rebuild of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+14:50:28 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+14:52:21 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+14:53:02 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:22:2: error: expected ';' before 'return'
+  return 0;
+  ^~~~~~
+14:53:11 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+14:55:19 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+14:58:50 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+15:04:22 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:05:47 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:11:10 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:33:57 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+..\SLL.cpp: In member function 'void SLL::insertInOrder(int, std::__cxx11::string)':
+..\SLL.cpp:40:19: error: expression list treated as compound expression in initializer [-fpermissive]
+   SNode *toAdd(r,c);
+                   ^
+..\SLL.cpp:40:19: warning: left operand of comma operator has no effect [-Wunused-value]
+..\SLL.cpp:40:19: error: cannot convert 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}' to 'SNode*' in initialization
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:34:20 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+..\SLL.cpp: In member function 'void SLL::insertInOrder(int, std::__cxx11::string)':
+..\SLL.cpp:46:15: error: cannot convert 'SNode' to 'SNode*' in assignment
+   tmp->next = toAdd;
+               ^~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:34:28 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+..\SLL.cpp: In member function 'void SLL::insertInOrder(int, std::__cxx11::string)':
+..\SLL.cpp:46:15: error: no match for 'operator*' (operand type is 'SNode')
+   tmp->next = *toAdd;
+               ^~~~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:35:34 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:36:47 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+16:48:37 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:17:2: error: 'SLL' was not declared in this scope
+  SLL list;
+  ^~~
+..\mainll.cpp:19:2: error: 'list' was not declared in this scope
+  list.addFirst(10,"1");
+  ^~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:49:02 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+16:49:04 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:49:26 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:49:27 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:49:28 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:49:29 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+16:50:08 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:51:04 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+16:51:46 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:23:13: error: 'int SLL::size' is private within this context
+  cout<<list.size<<endl;
+             ^~~~
+In file included from ..\mainll.cpp:11:0:
+..\SLL.hpp:18:6: note: declared private here
+  int size;
+      ^~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:52:11 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:23:14: error: 'int SLL::size' is private within this context
+  cout<<list->size<<endl;
+              ^~~~
+In file included from ..\mainll.cpp:11:0:
+..\SLL.hpp:18:6: note: declared private here
+  int size;
+      ^~~~
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:52:19 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:20:24: warning: 'list' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  list->addFirst(10,"1");
+                        ^
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:53:00 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+16:53:32 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+16:53:57 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+16:54:09 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:20:24: warning: 'list' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  list->addFirst(10,"1");
+                        ^
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+16:55:00 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:20:24: warning: 'list' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  list->addFirst(10,"1");
+                        ^
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+16:55:20 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+16:55:45 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+16:55:55 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Lab 03 linked lists
+17:05:10 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+17:05:14 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+18:27:51 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+18:28:01 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+18:29:06 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+18:29:47 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+18:33:02 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+18:33:26 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+18:34:44 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+18:35:34 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+..\SLL.cpp: In member function 'void SLL::push(int, std::__cxx11::string)':
+..\SLL.cpp:55:17: error: cannot convert 'SNode' to 'SNode*' in assignment
+  tmp = SNode(r,c);
+                 ^
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+18:35:46 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+18:36:02 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 03 linked lists
+18:37:08 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+19:26:33 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+19:28:11 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+19:28:15 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:28:50 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+19:29:21 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+19:29:22 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:29:45 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 03 linked lists.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:30:06 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:31:32 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:35:00 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:36:43 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:42:54 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:45:09 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:46:21 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:47:13 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:49:58 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:50:21 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:50:46 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:51:03 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:52:13 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:53:56 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:58:18 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+19:59:42 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:01:13 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:02:40 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:04:53 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:07:13 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:07:40 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:07:51 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+20:08:46 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+..\mainll.cpp: In function 'int main()':
+..\mainll.cpp:48:15: error: 'SNode* SLL::first' is private within this context
+  delete list->first;
+               ^~~~~
+In file included from ..\mainll.cpp:10:0:
+..\SLL.hpp:16:9: note: declared private here
+  SNode *first;
+         ^~~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+20:09:12 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+20:09:44 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+..\SNode.cpp: In destructor 'SNode::~SNode()':
+..\SNode.cpp:22:10: error: type 'class SNode' argument given to 'delete', expected pointer
+  delete *next;
+          ^~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+20:10:00 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+20:10:25 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+14:10:23 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+14:28:16 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+21:56:41 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SLL.o "..\\SLL.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+Info: Nothing to build for Lab 03 linked lists
+17:48:25 **** Incremental Build of configuration Debug for project Lab 03 linked lists ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainll.o "..\\mainll.cpp" 
+g++ -o "Lab 03 linked lists.exe" SLL.o SNode.o mainll.o 
+18:56:35 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+18:57:14 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+17:10:40 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for tester
+17:19:22 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+17:19:37 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+17:19:49 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+17:20:08 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+17:20:16 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:37:12: error: cannot convert 'int**' to 'int*' in initialization
+  int *y = &x;
+            ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+17:20:27 **** Incremental Build of configuration Debug for project Lab 03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o book.o "..\\book.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 03.exe" book.o main.o 
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+17:20:29 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:37:12: error: cannot convert 'int**' to 'int*' in initialization
+  int *y = &x;
+            ^
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+17:20:35 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+17:20:54 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+13:46:26 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+In file included from c:\mingw\include\stdio.h:69:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h:43,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5402,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\SNode.cpp:7:
+..\SNode.cpp: In constructor 'SNode::SNode(char, int)':
+..\SNode.cpp:15:10: error: no match for 'operator=' (operand types are 'SNode' and 'int')
+  *left = NULL;
+          ^
+In file included from ..\SNode.cpp:8:0:
+..\SNode.hpp:12:7: note: candidate: SNode& SNode::operator=(const SNode&)
+ class SNode {
+       ^~~~~
+..\SNode.hpp:12:7: note:   no known conversion for argument 1 from 'int' to 'const SNode&'
+In file included from c:\mingw\include\stdio.h:69:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h:43,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5402,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\SNode.cpp:7:
+..\SNode.cpp:16:11: error: no match for 'operator=' (operand types are 'SNode' and 'int')
+  *right = NULL;
+           ^
+In file included from ..\SNode.cpp:8:0:
+..\SNode.hpp:12:7: note: candidate: SNode& SNode::operator=(const SNode&)
+ class SNode {
+       ^~~~~
+..\SNode.hpp:12:7: note:   no known conversion for argument 1 from 'int' to 'const SNode&'
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+13:48:49 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SNode.o "..\\SNode.cpp" 
+g++ -o Huffman.exe SNode.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+19:24:51 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'void modifyX(std::__cxx11::string)':
+..\test.cpp:37:26: error: default argument given for parameter 1 of 'void modifyX(std::__cxx11::string)' [-fpermissive]
+ void modifyX(string co=""){
+                          ^
+..\test.cpp:27:6: note: previous specification in 'void modifyX(std::__cxx11::string)' here
+ void modifyX(string co="");
+      ^~~~~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+19:25:33 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLPQ.o "..\\LLPQ.cpp" 
+..\LLPQ.cpp:35:41: error: default argument given for parameter 2 of 'void LLPQ::addFirst(char, std::__cxx11::string)' [-fpermissive]
+ void LLPQ::addFirst(char x, string co=""){
+                                         ^
+In file included from ..\LLPQ.cpp:8:0:
+..\LLPQ.hpp:26:7: note: previous specification in 'void LLPQ::addFirst(char, std::__cxx11::string)' here
+  void addFirst(char x, string co="");
+       ^~~~~~~~
+..\LLPQ.cpp:38:43: error: default argument given for parameter 2 of 'void LLPQ::addAtFirst(char, std::__cxx11::string)' [-fpermissive]
+ void LLPQ::addAtFirst(char x, string co=""){
+                                           ^
+In file included from ..\LLPQ.cpp:8:0:
+..\LLPQ.hpp:30:7: note: previous specification in 'void LLPQ::addAtFirst(char, std::__cxx11::string)' here
+  void addAtFirst(char x, string co="");
+       ^~~~~~~~~~
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+19:25:34 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'void modifyX(std::__cxx11::string)':
+..\test.cpp:39:26: error: default argument given for parameter 1 of 'void modifyX(std::__cxx11::string)' [-fpermissive]
+ void modifyX(string co=""){
+                          ^
+..\test.cpp:27:6: note: previous specification in 'void modifyX(std::__cxx11::string)' here
+ void modifyX(string co="");
+      ^~~~~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+19:25:48 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLPQ.o "..\\LLPQ.cpp" 
+..\LLPQ.cpp:35:41: error: default argument given for parameter 2 of 'void LLPQ::addFirst(char, std::__cxx11::string)' [-fpermissive]
+ void LLPQ::addFirst(char x, string co=""){
+                                         ^
+In file included from ..\LLPQ.cpp:8:0:
+..\LLPQ.hpp:26:7: note: previous specification in 'void LLPQ::addFirst(char, std::__cxx11::string)' here
+  void addFirst(char x, string co="");
+       ^~~~~~~~
+..\LLPQ.cpp:38:43: error: default argument given for parameter 2 of 'void LLPQ::addAtFirst(char, std::__cxx11::string)' [-fpermissive]
+ void LLPQ::addAtFirst(char x, string co=""){
+                                           ^
+In file included from ..\LLPQ.cpp:8:0:
+..\LLPQ.hpp:30:7: note: previous specification in 'void LLPQ::addAtFirst(char, std::__cxx11::string)' here
+  void addAtFirst(char x, string co="");
+       ^~~~~~~~~~
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+19:25:48 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:33:10: error: too few arguments to function 'void modifyX(std::__cxx11::string)'
+  modifyX();
+          ^
+..\test.cpp:27:6: note: declared here
+ void modifyX(string co);
+      ^~~~~~~
+19:26:11 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+19:26:18 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+19:26:24 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:33:10: error: too few arguments to function 'void modifyX(std::__cxx11::string)'
+  modifyX();
+          ^
+..\test.cpp:27:6: note: declared here
+ void modifyX(string co);
+      ^~~~~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+19:28:50 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLNode.o "..\\LLNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLPQ.o "..\\LLPQ.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+19:28:52 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+..\test.cpp: In function 'int main()':
+..\test.cpp:33:10: error: too few arguments to function 'void modifyX(std::__cxx11::string)'
+  modifyX();
+          ^
+..\test.cpp:27:6: note: declared here
+ void modifyX(string co);
+      ^~~~~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+19:38:38 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLPQ.o "..\\LLPQ.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o huffmain.o "..\\huffmain.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+19:38:39 **** Incremental Build of configuration Debug for project tester ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o tester.exe test.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+19:39:00 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o huffmain.o "..\\huffmain.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Huffman
+19:40:34 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o huffmain.o "..\\huffmain.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
+Info: Nothing to build for Huffman
+19:42:59 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLPQ.o "..\\LLPQ.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
+19:43:28 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o LLPQ.o "..\\LLPQ.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
+19:45:44 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o huffmain.o "..\\huffmain.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
+19:46:37 **** Incremental Build of configuration Debug for project Huffman ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o huffmain.o "..\\huffmain.cpp" 
+g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 

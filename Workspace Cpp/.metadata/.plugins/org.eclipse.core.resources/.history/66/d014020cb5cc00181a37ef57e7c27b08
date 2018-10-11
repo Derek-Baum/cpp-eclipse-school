@@ -1,0 +1,17 @@
+/*
+ * SNode.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "SNode.hpp"
+
+using namespace std;
+
+SNode::SNode(char character, int freq){
+	c = character;
+	frequency = freq;
+	code = "";
+	left=right=NULL;
+}

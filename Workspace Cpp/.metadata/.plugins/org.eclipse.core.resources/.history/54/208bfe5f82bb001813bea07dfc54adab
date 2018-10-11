@@ -1,0 +1,99 @@
+/*
+ * Derek Baum
+ * Lab 02
+ */
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+#include <ctime>
+
+using namespace std;
+void nextProblem();
+void printAddress();
+void addFour(int x);
+int randomInt();
+void cubeValue(int &x);
+void addRandVal(int *x);
+
+int main(){
+
+	printAddress();
+
+	nextProblem();
+
+	int x = 10;
+	cout << x << endl;
+	cout << &x << endl;
+	addFour(x); // this is call by value, it creates local x and adds four
+
+	nextProblem();
+
+	int y = randomInt();
+	cout << y << endl;
+	cout << &y << endl;
+
+	nextProblem();
+
+	int val = 3;
+	cout << "Val is " << val << endl;
+	cout << "Vals address is " << &val << endl;
+	cubeValue(val);
+	cout << "Val is " << val << endl;
+	cout << "Vals address is " << &val << endl;
+	//this is call by reference
+
+	nextProblem();
+
+	int z = 5;
+	cout << "z is "<<z<<endl;
+	cout << "z's address is "<<&z<<endl;
+	addRandVal(&z);
+	cout << "z is now "<<z<<endl;
+	cout << "z's address is "<<&z<<endl;
+
+	nextProblem();
+
+	return 0;
+}
+
+void nextProblem(){
+	cout << "" << endl;
+	cout << "@@@@@@@@@@@@@@@@@@@@@NEXT@@PROBLEM@@@@@@@@@@@@@@@@@@@@@" << endl;
+	cout << "" << endl;
+}
+
+void printAddress(){
+	int x = 3;
+	cout << x << endl;
+	cout << &x << endl;
+}
+
+void addFour(int x){
+	x+=4;
+	cout << x << endl;
+	cout << &x << endl;
+}
+
+int randomInt(){
+
+	srand((int) time(0));
+	int x =	rand() % 50;
+	cout << x << endl;
+	cout << &x << endl;
+
+	return x;
+}
+void cubeValue(int &x){
+	x*=x * x;
+	cout << x << endl;
+	cout << &x << endl;
+
+}
+void addRandVal(int *x){
+	srand((int) time(NULL));
+	int y = rand() % 10;
+	x += y;
+	cout << "random number is "<<y<<endl;
+	cout << "our new number is " <<x<<endl;
+	cout << "the address of the input is"<<&x<<endl;
+}

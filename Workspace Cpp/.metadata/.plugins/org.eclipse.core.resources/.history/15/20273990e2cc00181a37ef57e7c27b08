@@ -1,0 +1,32 @@
+/*
+ * LLPQ.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLPQ.hpp"
+
+using namespace std;
+
+LLPQ::LLPQ(){
+	first = NULL;
+	size = 0;
+}
+LLPQ::~LLPQ(){
+	LLNode *tmp = first;
+	while(tmp!= NULL){
+		LLNode *next = tmp->right;
+		tmp->~LLNode();
+		tmp = next;
+	}
+	cout<<"Deleted each node in ll"<<endl;
+}
+void LLPQ::printLLPQ(){
+	LLNode *tmp = first;
+	while(tmp!=NULL){
+		tmp->printNode();
+		cout<<endl;
+		tmp = tmp->right;
+	}
+}

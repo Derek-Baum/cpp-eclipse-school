@@ -1,0 +1,24 @@
+/*
+ * SNode.hpp
+ *
+ *  Created on: Oct 2, 2018
+ *      Author: mexib
+ */
+
+#ifndef LLNODE_HPP_
+#define LLNODE_HPP_
+#include <iostream>
+using namespace std;
+class SNode {
+	friend class LLPQ;
+	char c;
+	int frequency;
+	string code;
+	SNode *left,*right;
+public:
+	SNode(char character,int freq);
+	~SNode();
+	void printNode();
+};
+
+#endif /* LLNODE_HPP_ */

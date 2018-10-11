@@ -1,0 +1,24 @@
+/*
+ * LLPQ.hpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+
+#ifndef LLPQ_HPP_
+#define LLPQ_HPP_
+
+#include "SNode.hpp"
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+class LLPQ{
+
+};
+
+
+
+
+
+#endif /* LLPQ_HPP_ */
