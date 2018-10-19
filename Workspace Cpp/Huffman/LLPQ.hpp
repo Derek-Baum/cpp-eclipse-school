@@ -15,6 +15,7 @@
 using namespace std;
 
 class LLPQ{
+	friend class LLHuff;
 	LLNode *first, *last;
 	int size;
 public:
@@ -23,11 +24,11 @@ public:
 	void printLLPQ();
 	//prints out the linked list/priority queue
 
-	void addFirst(char x, string co="-1");
+	void addFirst(char x, string co="-1",int freq=1);
 	// adds the very first character node to the linked list, along
 	// with an original default vode value set to -1.
 
-	void addAtFirst(char x, string co="-1");
+	void addAtFirst(char x, string co="-1",int freq=1);
 	//add a new node to the beginning of the linked list (modifying the first
 	//pointer and the size, and setting the vode field to co, (default = -1).
 
@@ -59,6 +60,11 @@ public:
 	/* inserts the node n into the linked list in order of its
 	 * count value - this will be used in the creation of the huffman
 	 * code.
+	 */
+
+	int getSize();
+	/*
+	 * returns the size
 	 */
 
 

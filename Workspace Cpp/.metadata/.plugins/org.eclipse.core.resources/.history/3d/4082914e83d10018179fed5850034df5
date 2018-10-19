@@ -1,0 +1,12 @@
+/*
+ * LLHuff.cpp
+ *
+ *  Created on: Oct 16, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLHuff.hpp"
+
+using namespace std;
+
+

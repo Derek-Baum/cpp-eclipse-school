@@ -1,0 +1,49 @@
+/*
+ * huffmain.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLPQ.hpp"
+#include "LLNode.hpp"
+#include <stdlib.h>
+#include <fstream>
+
+
+using namespace std;
+
+
+int main(){
+
+	LLPQ test;
+	char ch;
+	fstream fin("test.txt",fstream::in);
+	while(fin >> noskipws >> ch){
+		test.insertUnique(ch);
+	}
+
+	test.printLLPQ();
+	cout<<endl<<endl;
+
+	cout<<"SORTING THE LIST AND PRINTING IT"<<endl;
+
+	test.sortLL();
+	test.printLLPQ();
+	/*
+	while(test.getSize() != 1){
+		LLNode *tmp = test.remFirst();
+		LLNode *tmp2 = test.remFirst();
+		LLNode *parent = new LLNode('*',"-1",tmp->frequency + tmp2->frequency);
+		parent->left = tmp;
+		parent->right = tmp2;
+		test.insertInOrder(parent);
+	}
+	 */
+	cout<<"we have turned the priority queue into a tree"<<endl;
+	test.printLLPQ();
+
+	return 0;
+}
+
+

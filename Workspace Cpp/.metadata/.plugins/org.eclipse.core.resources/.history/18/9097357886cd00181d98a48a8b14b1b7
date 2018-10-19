@@ -1,0 +1,41 @@
+/*
+ * huffmain.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLPQ.hpp"
+#include "LLNode.hpp"
+#include <stdlib.h>
+
+
+using namespace std;
+
+
+int main(){
+
+	LLPQ test;
+	test.addFirst('B',"2",2);
+	test.printLLPQ();
+
+	test.addAtFirst('A',"1",1);
+	test.printLLPQ();
+
+
+	test.addAtFirst('C',"3");
+	test.first->setFreq(3);
+	test.printLLPQ();
+
+
+	test.addAtFirst('D',"4");
+	test.first->setFreq(4);
+	test.printLLPQ();
+
+	test.sortLL();
+	test.printLLPQ();
+
+	return 0;
+}
+
+

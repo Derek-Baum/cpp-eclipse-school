@@ -1,7 +1,1 @@
-19:46:37 **** Incremental Build of configuration Debug for project Huffman ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o huffmain.o "..\\huffmain.cpp" 
-g++ -o Huffman.exe LLNode.o LLPQ.o huffmain.o 
-
-19:46:38 Build Finished (took 648ms)
-
+Info: Nothing to build for Huffman

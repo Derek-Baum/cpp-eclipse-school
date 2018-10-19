@@ -6,3 +6,4 @@ org.eclipse.launchbar.core.descriptorType.default\:Class\ Example.exe/activeLaun
 org.eclipse.launchbar.core.descriptorType.default\:Class\ Example.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:FirstProject.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:FirstProject.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Huffman.exe/activeLaunchMode=run

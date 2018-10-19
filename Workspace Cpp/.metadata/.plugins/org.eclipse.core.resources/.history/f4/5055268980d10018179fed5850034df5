@@ -1,0 +1,21 @@
+/*
+ * LLHuff.hpp
+ *
+ *  Created on: Oct 16, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#ifndef LLHUFF_HPP_
+#define LLHUFF_HPP_
+
+class LLHuff {
+	string file;
+	LLNode *root;
+	int size;
+};
+
+
+
+
+
+#endif /* LLHUFF_HPP_ */

@@ -1,0 +1,82 @@
+/*
+ * LLPQ.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLPQ.hpp"
+
+using namespace std;
+
+LLPQ::LLPQ(){
+	first = NULL;
+	last = NULL;
+	size = 0;
+}
+LLPQ::~LLPQ(){
+	LLNode *tmp = first;
+	while(tmp!= NULL){
+		LLNode *next = tmp->right;
+		tmp->~LLNode();
+		tmp = next;
+	}
+	cout<<"Deleted each node in ll"<<endl;
+}
+void LLPQ::printLLPQ(){
+	LLNode *tmp = first;
+	while(tmp!=NULL){
+		tmp->printNode();
+		tmp = tmp->right;
+	}
+	cout<<endl;
+}
+void LLPQ::addFirst(char x, string co){
+	first = new LLNode(x,"-1");
+	size++;
+}
+void LLPQ::addAtFirst(char x, string co){
+	LLNode *tmp = new LLNode(x,co);
+	tmp->right = first;
+	tmp->right->left = tmp;
+	first = tmp;
+	size++;
+}
+
+LLNode* LLPQ::remFirst(){
+	LLNode *ret = first;
+	first = first->right;
+	first->left = NULL;
+	size--;
+
+	return ret;
+}
+string LLPQ::findCode(char k){
+	LLNode *tmp = first;
+	while(tmp->c != k && tmp != NULL){
+		tmp = tmp->right;
+	}
+	return tmp->code;
+}
+void LLPQ::sortLL(){
+	LLNode *tmp = first;
+	//0 2 1
+	//
+	while(tmp != NULL){
+		if(tmp->frequency > tmp->right->frequency){
+			//swap tmp and tmp->next
+			tmp->left->right = tmp->right;
+			LLNode *tmp2 = tmp->right;
+			tmp->right = tmp;
+			tmp->right = tmp2;
+		}else{
+			tmp = tmp->right;
+		}
+	}
+}
+void LLPQ::insertUnique(char c){
+
+}
+void LLPQ::insertInOrder(LLNode *n){
+
+}

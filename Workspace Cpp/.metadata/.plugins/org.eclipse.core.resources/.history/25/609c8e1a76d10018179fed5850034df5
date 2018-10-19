@@ -1,0 +1,39 @@
+/*
+ * huffmain.cpp
+ *
+ *  Created on: Oct 10, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLPQ.hpp"
+#include "LLNode.hpp"
+#include <stdlib.h>
+#include <fstream>
+
+
+using namespace std;
+
+
+int main(){
+
+	LLPQ test;
+	char ch;
+	fstream fin("test.txt",fstream::in);
+	while(fin >> noskipws >> ch){
+		test.insertUnique(ch);
+	}
+
+
+	test.printLLPQ();
+
+	cout<<"SORTING THE LIST AND PRINTING IT"<<endl;
+
+	test.sortLL();
+	test.printLLPQ();
+
+
+
+	return 0;
+}
+
+

@@ -1,0 +1,51 @@
+/*
+ * LLHuff.cpp
+ *
+ *  Created on: Oct 16, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLHuff.hpp"
+
+using namespace std;
+
+LLHuff::LLHuff(string f){
+	file = f;
+	root = NULL;
+	size = 0;
+	pq = NULL;
+	ascii = NULL;
+}
+LLHuff::~LLHuff(){
+	delete root;
+	delete pq;
+	delete ascii;
+}
+void LLHuff::MakeHuff(){
+	while(pq->size != 1){
+		LLNode *tmp = pq->remFirst();
+		LLNode *tmp2 = pq->remFirst();
+		LLNode *parent = new LLNode ('*',"-1",tmp->frequency + tmp2->frequency);
+		parent->left = tmp;
+		parent->right = tmp2;
+		pq->insertInOrder(parent);
+	}
+	root = pq->first;
+}
+void LLHuff::FindCode(LLNode *root,string path){
+
+}
+void LLHuff::ReadFile(){
+	ifstream infile(file.c_str(),ios::in);
+	char ch;
+	while(infile.get(ch)){
+		pq->insertUnique(ch);
+	}
+	infile.close();
+}
+void LLHuff::compressFile(){
+
+}
+void LLHuff::ReadAscii(){
+
+}

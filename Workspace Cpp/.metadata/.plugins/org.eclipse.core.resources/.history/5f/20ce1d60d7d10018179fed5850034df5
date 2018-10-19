@@ -1,0 +1,157 @@
+/*
+ * LLHuff.cpp
+ *
+ *  Created on: Oct 16, 2018
+ *      Author: Derek Baum
+ */
+#include <iostream>
+#include "LLHuff.hpp"
+#include "LLNode.hpp"
+#include "LLPQ.hpp"
+#include <fstream>
+
+using namespace std;
+
+LLHuff::LLHuff(string f){
+	file = f;
+	root = NULL;
+	size = 0;
+	pq = new LLPQ;
+	ascii = NULL;
+}
+LLHuff::~LLHuff(){
+	delete root;
+	delete pq;
+	delete ascii;
+}
+void LLHuff::MakeHuff(){
+	while(pq->size != 1){
+		LLNode *tmp = pq->remFirst();
+		LLNode *tmp2 = pq->remFirst();
+		LLNode *parent = new LLNode ('*',"-1",tmp->frequency + tmp2->frequency);
+		parent->left = tmp;
+		parent->right = tmp2;
+		pq->insertInOrder(parent);
+	}
+	root = pq->first;
+}
+void LLHuff::setCodes(LLNode *top){
+	if(top == NULL){
+		return;
+	}else{
+		top->left->code=top->code + "0";
+		top->right->code=top->code + "1";
+		setCodes(top->left);
+		setCodes(top->right);
+	}
+}
+string LLHuff::FindCode(LLNode *top, char ch){
+	cout<<top->c<<endl;
+	if(top->c == 'd'){
+		cout<<"excuse me"<<endl;
+		cout<<top->left->c<<" "<<top->right->c<<endl;
+	}
+	if(top->c == ch)
+		return top->code;
+	if(top == NULL)
+		return "";
+
+	string output = FindCode(top->left,ch);
+	if(output == ""){
+		output = FindCode(top->right,ch);
+	}
+
+	return output;
+}
+int LLHuff::height(LLNode *top){
+	if(top == NULL)
+		return 0;
+	else{
+		int l = height(top->left);
+		int r = height(top->right);
+
+		if(l > r)
+			return l+1;
+		return r + 1;
+	}
+}
+void LLHuff::printLevel(LLNode *top, int level){
+	if(top == NULL){
+		return;
+	}else if(level == 1){
+		cout<<top->c<<" ";
+	}else if(level > 1){
+		printLevel(top->left,level-1);
+		printLevel(top->right,level-1);
+	}
+}
+void LLHuff::printTree(){
+	printTree(root);
+}
+void LLHuff::printTree(LLNode *top){
+	int h = height(top);
+	for(int i = 0; i < h;i++){
+		printLevel(top,i);
+		cout<<endl;
+	}
+}
+void LLHuff::ReadFile(){
+	ifstream infile(file.c_str(),ios::in);
+	char ch;
+	while(infile.get(ch)){
+		pq->insertUnique(ch);
+	}
+	infile.close();
+}
+void LLHuff::compressFile(){
+	ifstream infile(file.c_str(),ios::in);
+	char ch;
+	ofstream outfile("compressed.txt",ios::out);
+	while(infile.get(ch)){
+		cout<<ch<<endl;
+		outfile<<FindCode(root,ch)<<" ";
+	}
+	infile.close();
+	outfile.close();
+
+}
+void LLHuff::ReadAscii(){
+	cout << file << endl;
+	ifstream infile("asciitable.txt",ios::in); // open file
+	char ch;
+	string asciicode;
+	if (!infile.is_open()) {
+	return;
+	}
+	infile >> asciicode;
+	pq->addFirst(' ',asciicode);
+	infile >> asciicode;
+	while (infile>>ch) { // loop getting single characters
+	cout << ch;
+	infile>>asciicode; // gets entire word (code)
+	cout << asciicode << endl;
+	pq->addAtFirst(ch,asciicode,0);
+	}
+	cout << endl;
+	infile.close();
+	/////////////////////////////////////
+	ifstream infile2(file.c_str(),ios::in); // open file for reading
+	ofstream outfile("asciivsn.txt",ios::out);
+	char k;
+	string comp;
+	while (infile2.get(k)) { // loop getting single characters
+	cout << k;
+	comp = pq->findCode(k);
+	if (comp == "") {
+	cout << "ERROR WITH " << k << endl;
+	}
+	else {
+	cout << k << ":" << comp << endl;
+	outfile << comp << " ";
+	}
+	}
+	cout << endl;
+	infile2.close();
+	outfile.close();
+
+}
