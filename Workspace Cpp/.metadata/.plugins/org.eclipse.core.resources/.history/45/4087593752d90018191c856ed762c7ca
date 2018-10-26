@@ -69,13 +69,6 @@ void BSTY::adjustHeights(NodeT *n) {
 		return;
 	}
 
-	if(getBalance(n) > 1){
-		rotateRight(n);
-	}else if(getBalance(n) < 1){
-		rotateLeft(n);
-	}
-
-
 	if(n->left == NULL && n->right == NULL){
 		n->height = 1;
 	}else if(n->left==NULL){
@@ -439,49 +432,30 @@ void BSTY::myPrintEC(NodeT *n) {
 	}
 }
 int BSTY::getBalance(NodeT *n){
-	return n->left->height - n->right->height;
+	return abs(n->left->height - n->right->height);
 }
 
 NodeT* BSTY::rotateLeft(NodeT *n){
 	NodeT *temp = n->right;
 	if(n->parent!=NULL){
 		n->right->parent = n->parent;
-
 		n->right = temp->left;
 		temp->left->parent = n;
-
 		temp->left=n;
 		n->parent = temp;
 	}else{
 		n->right = temp->left;
 		temp->left->parent=n;
-
 		temp->left=n;
 		n->parent=temp;
 		temp->parent=NULL;
 		root=temp;
 	}
-	return temp;
 }
 
 
 NodeT* BSTY::rotateRight(NodeT *n){
-	NodeT *temp = n->left;
-		if(n->parent!=NULL){
-			temp->parent = n->parent;
-			n->left = temp->right;
-			temp->right->parent = n;
-			temp->right=n;
-			n->parent = temp;
-		}else{
-			n->left = temp->right;
-			temp->right->parent=n;
-			temp->right=n;
-			n->parent=temp;
-			temp->parent=NULL;
-			root=temp;
-		}
-		return temp;
+
 }
 
 

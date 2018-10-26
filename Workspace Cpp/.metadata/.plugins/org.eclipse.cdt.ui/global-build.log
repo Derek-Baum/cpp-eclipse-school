@@ -10431,3 +10431,58 @@ g++ -o "Lab 04.exe" BSTY.o NodeT.o TreePuzzle.o mainYahtzee.o
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
 g++ -o "Lab 04.exe" BSTY.o NodeT.o TreePuzzle.o mainYahtzee.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+15:15:35 **** Incremental Build of configuration Debug for project Lab 04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04.exe" BSTY.o NodeT.o TreePuzzle.o mainYahtzee.o 
+15:15:38 **** Rebuild of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainAVL.o "..\\mainAVL.cpp" 
+..\mainAVL.cpp:122:3: warning: "/*" within comment [-Wcomment]
+  //*b = 3;
+    
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o NodeT.o "..\\NodeT.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:66:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 04
+15:23:52 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:66:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester

@@ -1,0 +1,16 @@
+15:23:52 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:66:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+
+15:23:53 Build Finished (took 470ms)
+
