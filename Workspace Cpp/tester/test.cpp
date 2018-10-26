@@ -30,9 +30,9 @@ void modifyRef(int &x);
 using namespace std;
 
 int main() {
-	string s = "0";
-	string s2 = s + "1";
-	cout<<s2<<endl;
+	string s = "a";
+	string s2 = "b";
+	cout<<max(10,4)<<endl;
 	return 0;
 }
 
