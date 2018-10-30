@@ -42,12 +42,18 @@ bool BSTY:: insertit(string x ) {
 		prev->right->parent = prev;
 		prev->right->height = 1;
 		adjustHeights(prev->right);
+		while(!balance(prev)){
+			cout<<"fek"<<endl;
+		}
 		return true;
 	}
 	prev->left = new NodeT(x);
 	prev->left->parent = prev;
 	prev->left->height = 1;
 	adjustHeights(prev->left);
+	while(!balance(prev)){
+		cout<<"fak"<<endl;
+	}
 	return true;
 
 }
@@ -69,12 +75,39 @@ void BSTY::adjustHeights(NodeT *n) {
 		return;
 	}
 
+
+/*
 	if(getBalance(n) > 1){
 		rotateRight(n);
-	}else if(getBalance(n) < 1){
+	}else if(getBalance(n) < -1){
 		rotateLeft(n);
 	}
 
+*/
+
+/*
+	if(getBalance(n) > 1){
+		if(getBalance(n->left) > 0){
+			cout<<"rotating right"<<endl;
+			rotateRight(n);
+			adjustHeights(n);
+		}else{
+			rotateLeft(n->left);
+			rotateRight(n);
+			adjustHeights(n);
+		}
+	}else if(getBalance(n) < -1){
+		if(getBalance(n->right) > 0){
+			cout<<"rotating left"<<endl;
+			rotateLeft(n);
+			adjustHeights(n);
+		}else{
+			rotateRight(n->right);
+			rotateLeft(n);
+			adjustHeights(n);
+		}
+	}
+*/
 
 	if(n->left == NULL && n->right == NULL){
 		n->height = 1;
@@ -86,6 +119,8 @@ void BSTY::adjustHeights(NodeT *n) {
 		n->height = max(n->left->height,n->right->height)+1;
 	}
 	adjustHeights(n->parent);
+
+
 
 	/*
 	NodeT *tmp = n->parent;
@@ -439,22 +474,82 @@ void BSTY::myPrintEC(NodeT *n) {
 	}
 }
 int BSTY::getBalance(NodeT *n){
-	return n->left->height - n->right->height;
+	if(n==NULL){
+		return 0;
+	}
+	int left = (n->left != NULL ? n->left->height : 0);
+	int right = (n->right != NULL ? n->right->height : 0);
+	return left-right;
 }
-
+/*
+NodeT* BSTY::rotateRight(NodeT *n){
+	NodeT *temp = n->left;
+	n->left = temp->right;
+	temp->right=n;
+	return temp;
+}
 NodeT* BSTY::rotateLeft(NodeT *n){
+	NodeT *temp = n->right;
+	n->right = temp->left;
+	temp->left=n;
+	return temp;
+}*/
+//returns true if its balanced, false if its not.
+bool BSTY::balance(NodeT *n){
+	int bal = getBalance(n);
+	if(bal > 1){
+		if(getBalance(n->left) > 0){
+			rotateRight(n);
+			adjustHeights(n);
+		}else{
+			rotateLeft(n->left);
+			adjustHeights(n->left);
+			rotateRight(n);
+			adjustHeights(n);
+		}
+		return false;
+	}else if(bal < -1){
+		if(getBalance(n->right) > 0){
+			rotateLeft(n);
+			adjustHeights(n);
+		}else{
+			rotateRight(n->right);
+			adjustHeights(n->right);
+			rotateLeft(n);
+			adjustHeights(n);
+		}
+		return false;
+	}else{
+		return true;
+	}
+}
+NodeT* BSTY::rotateLeft(NodeT *n){
+	if(n->right==NULL){
+		return NULL;
+	}/*
+	if(getBalance(n->right) <= 0){
+		rotateRight(n->right);
+	}*/
 	NodeT *temp = n->right;
 	if(n->parent!=NULL){
 		n->right->parent = n->parent;
 
+		if(n->parent->right == n){
+			n->parent->right = temp;
+		}else{
+			n->parent->left = temp;
+		}
+
 		n->right = temp->left;
-		temp->left->parent = n;
+		if(temp->left != NULL)
+			temp->left->parent = n;
 
 		temp->left=n;
 		n->parent = temp;
 	}else{
 		n->right = temp->left;
-		temp->left->parent=n;
+		if(temp->left != NULL)
+			temp->left->parent=n;
 
 		temp->left=n;
 		n->parent=temp;
@@ -464,18 +559,35 @@ NodeT* BSTY::rotateLeft(NodeT *n){
 	return temp;
 }
 
-
 NodeT* BSTY::rotateRight(NodeT *n){
+	if(n->left == NULL){
+		return NULL;
+	}/*
+	if(getBalance(n->left) <= 0){
+		rotateLeft(n->left);
+	}*/
 	NodeT *temp = n->left;
 		if(n->parent!=NULL){
 			temp->parent = n->parent;
+
+			if(n->parent->right == n){
+				n->parent->right = temp;
+			}else{
+				n->parent->left = temp;
+			}
+
 			n->left = temp->right;
-			temp->right->parent = n;
+			if(temp->right != NULL)
+				temp->right->parent = n;
 			temp->right=n;
 			n->parent = temp;
 		}else{
 			n->left = temp->right;
-			temp->right->parent=n;
+
+			if(temp->right != NULL)
+				temp->right->parent=n;
+
+
 			temp->right=n;
 			n->parent=temp;
 			temp->parent=NULL;
@@ -483,7 +595,5 @@ NodeT* BSTY::rotateRight(NodeT *n){
 		}
 		return temp;
 }
-
-
 /************************************************************************/
 

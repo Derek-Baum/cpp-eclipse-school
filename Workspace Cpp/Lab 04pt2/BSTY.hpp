@@ -36,6 +36,7 @@ public:
 	NodeT *rotateRight(NodeT *n);
 	NodeT *rotateLeft(NodeT *n);
 	int getBalance(NodeT *n);
+	bool balance(NodeT *n);
 };
 
 

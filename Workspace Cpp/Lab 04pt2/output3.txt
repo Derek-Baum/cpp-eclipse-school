@@ -432,7 +432,7 @@ INORDER
 |gymnure(1): hairy hedgehog
 |haddock(2): a gray bottom-dwelling fish endemic to the North Atlantic Ocean
 |hake(1): a food fish with an elongated body and a large head
-|halibut(10): worldâ€™s largest flatfish, diamond-shaped, with one dark side and one light
+|halibut(10): worldÃ¢â‚¬â„¢s largest flatfish, diamond-shaped, with one dark side and one light
 |hammerkop(1): brown African heron with hammer-shaped crest on head
 |harrier(2): medium-sized scenting dog for hunting hares
 |hatchling(3): a baby bird or animal that has just come out of the egg
@@ -461,7 +461,7 @@ INORDER
 |jabiru(4): large tropical stork with massive bill
 |jacana(1): long-toed tropical freshwater wading bird
 |jade(2): pitiful horse; a nag
-|jellyfish(1): among the worldâ€™s most ancient multicelled animals, with a soft, jelly-like â€œbellâ€? and tentacles
+|jellyfish(1): among the worldÃ¢â‚¬â„¢s most ancient multicelled animals, with a soft, jelly-like Ã¢â‚¬Å“bellÃ¢â‚¬? and tentacles
 |jennet(3): small Spanish horse
 |jerboa(1): nocturnal desert-dwelling jumping rodent
 |jiboya(2): boa constrictor
@@ -556,7 +556,7 @@ INORDER
 |piglet(2): a young pig
 |pika(1): rabbit-like mountain-dwelling mammal with rounded ears
 |pilchard(3): a small, oily fish that typically swims in large schools
-|plankton(1): tiny marine organisms of all kindsâ€”animals, plants, bacteria, algae, protistsâ€”that play a major role in the worldâ€™s food chains and chemical cycles
+|plankton(1): tiny marine organisms of all kindsÃ¢â‚¬â€�animals, plants, bacteria, algae, protistsÃ¢â‚¬â€�that play a major role in the worldÃ¢â‚¬â„¢s food chains and chemical cycles
 |porbeagle(2): shark with a pointed snout
 |porcupinefish(1): a spiny tropical marine fish that can inflate itself
 |porker(4): a young pig that has been made fat so that it can be eaten as pork
@@ -720,15 +720,15 @@ INORDER
 
 *******************************FIND
 1: |pichiciego(11): small South American armadillo
-11: |falanouc(1): carnivorous mongoose-like mammal of Madagascar
-8: |blauwbok(4): extinct bluish-coloured antelope of southern Africa
-7: |dibatag(6): Somali antelope with recurved horns
-9: |gharial(3): large Indian crocodile with long snout
-11: |duarf(1): fictitious nineteen-toed fish of Erewhon
-11: |kinkajou(1): carnivorous South American raccoon-like mammal
-8: |zyzzyva(2): South American weevil
-7: |tucutucu(5): rat-like burrowing South American rodent
-3: |tabanid(9): blood-sucking insect; gad-fly
-5: |solenodon(7): large Caribbean ratlike insectivore with long snout
-6: |axolotl(6): salamander dwelling in mountainous lakes
+10: |falanouc(1): carnivorous mongoose-like mammal of Madagascar
+7: |blauwbok(4): extinct bluish-coloured antelope of southern Africa
+6: |dibatag(6): Somali antelope with recurved horns
+8: |gharial(3): large Indian crocodile with long snout
+10: |duarf(1): fictitious nineteen-toed fish of Erewhon
+10: |kinkajou(1): carnivorous South American raccoon-like mammal
+7: |zyzzyva(2): South American weevil
+6: |tucutucu(5): rat-like burrowing South American rodent
+2: |tabanid(9): blood-sucking insect; gad-fly
+4: |solenodon(7): large Caribbean ratlike insectivore with long snout
+5: |axolotl(6): salamander dwelling in mountainous lakes
 

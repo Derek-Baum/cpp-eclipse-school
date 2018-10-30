@@ -10486,3 +10486,460 @@ In file included from ..\treePuzzle.hpp:12:0,
 ..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
 Info: Nothing to build for Teste
 Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 04
+15:58:56 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:66:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\TreePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 04
+15:59:30 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:66:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 04
+16:01:36 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp:18:1: error: redefinition of 'treePuzzle::treePuzzle(int, std::__cxx11::string*, int)'
+ treePuzzle::treePuzzle(int x, string sarr[],int k) {
+ ^~~~~~~~~~
+..\TreePuzzle.cpp:14:1: note: 'treePuzzle::treePuzzle(int, std::__cxx11::string*, int)' previously defined here
+ treePuzzle::treePuzzle(int x, string sarr[], int k){
+ ^~~~~~~~~~
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:70:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 04
+16:02:11 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp:18:1: error: redefinition of 'treePuzzle::treePuzzle(int, std::__cxx11::string*, int)'
+ treePuzzle::treePuzzle(int x, string sarr[],int k) {
+ ^~~~~~~~~~
+..\TreePuzzle.cpp:14:1: note: 'treePuzzle::treePuzzle(int, std::__cxx11::string*, int)' previously defined here
+ treePuzzle::treePuzzle(int x, string sarr[], int k){
+ ^~~~~~~~~~
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:70:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+Info: Nothing to build for Lab 04
+16:02:23 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+..\TreePuzzle.cpp: In member function 'void treePuzzle::readFile2(std::__cxx11::string, int)':
+..\TreePuzzle.cpp:66:26: error: no matching function for call to 'BSTY::insertit(std::__cxx11::string&, std::__cxx11::string&)'
+   tree->insertit(word,def);
+                          ^
+In file included from ..\treePuzzle.hpp:12:0,
+                 from ..\TreePuzzle.cpp:8:
+..\BSTY.hpp:15:7: note: candidate: bool BSTY::insertit(std::__cxx11::string)
+  bool insertit(string x);
+       ^~~~~~~~
+..\BSTY.hpp:15:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+16:03:11 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainAVL.o "..\\mainAVL.cpp" 
+..\mainAVL.cpp:122:3: warning: "/*" within comment [-Wcomment]
+  //*b = 3;
+    
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 04pt2
+16:04:35 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainAVL.o "..\\mainAVL.cpp" 
+..\mainAVL.cpp:122:3: warning: "/*" within comment [-Wcomment]
+  //*b = 3;
+    
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:04:49 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:05:05 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:06:52 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:07:16 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:08:39 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:08:58 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:12:41 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+16:16:13 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 04pt2
+16:17:10 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:21:35 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:27:28 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:27:43 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:27:54 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:28:10 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:31:06 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:31:18 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:31:59 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:34:29 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:34:52 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:35:28 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:35:53 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+..\BSTY.cpp: In member function 'NodeT* BSTY::rotateLeft(NodeT*)':
+..\BSTY.cpp:455:5: error: statement cannot resolve address of overloaded function
+  n->printNode;
+  ~~~^~~~~~~~~
+Info: Nothing to build for Class Example
+Info: Nothing to build for FirstProject
+Info: Nothing to build for Huffman
+Info: Nothing to build for Lab 01
+Info: Nothing to build for Lab 02
+Info: Nothing to build for Lab 03
+Info: Nothing to build for Lab 03 linked lists
+16:36:01 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+Info: Nothing to build for Teste
+Info: Nothing to build for tester
+Info: Nothing to build for Lab 04pt2
+16:36:33 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:37:08 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:37:41 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:42:18 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:42:43 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:47:26 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+Info: Nothing to build for Lab 04pt2
+Info: Nothing to build for Lab 04pt2
+Info: Nothing to build for Lab 04pt2
+14:40:38 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:43:16 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:44:34 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:45:04 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:46:28 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:47:13 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:49:27 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:49:45 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+14:53:24 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:09:04 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:11:31 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:20:21 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:20:43 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:21:30 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:24:58 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:50:40 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:51:27 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:53:04 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:53:45 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:54:12 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:54:30 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:55:10 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:55:18 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:55:23 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+15:56:17 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:00:01 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:07:18 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:14:22 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:16:10 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:17:15 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:18:12 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:18:59 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:19:28 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:21:39 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:26:25 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:27:08 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:35:19 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainAVL.o "..\\mainAVL.cpp" 
+..\mainAVL.cpp:122:3: warning: "/*" within comment [-Wcomment]
+  //*b = 3;
+    
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TreePuzzle.o "..\\TreePuzzle.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:35:46 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:35:54 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 
+16:36:34 **** Incremental Build of configuration Debug for project Lab 04pt2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o BSTY.o "..\\BSTY.cpp" 
+g++ -o "Lab 04pt2.exe" BSTY.o NodeT.o TreePuzzle.o mainAVL.o 

@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Teste.exe,org.eclipse.launchbar.core.descriptorType.default\:FirstProject.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 01.exe,org.eclipse.launchbar.core.descriptorType.default\:Class Example.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 02.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 03.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 03 linked lists.exe,org.eclipse.launchbar.core.descriptorType.default\:Huffman.exe,org.eclipse.launchbar.core.descriptorType.default\:tester.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 04.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Teste.exe,org.eclipse.launchbar.core.descriptorType.default\:FirstProject.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 01.exe,org.eclipse.launchbar.core.descriptorType.default\:Class Example.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 02.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 03.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 03 linked lists.exe,org.eclipse.launchbar.core.descriptorType.default\:Huffman.exe,org.eclipse.launchbar.core.descriptorType.default\:tester.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 04.exe,org.eclipse.launchbar.core.descriptorType.default\:Lab 04pt2.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Class\ Example.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Class\ Example.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -8,3 +8,4 @@ org.eclipse.launchbar.core.descriptorType.default\:FirstProject.exe/activeLaunch
 org.eclipse.launchbar.core.descriptorType.default\:FirstProject.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Huffman.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lab\ 04.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lab\ 04pt2.exe/activeLaunchMode=run
